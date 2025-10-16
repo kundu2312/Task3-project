@@ -1,0 +1,35 @@
+ *{ 
+    margin:0; 
+    padding:0;
+     box-sizing: border-box;
+ } 
+ body{ 
+    background-color:rgb(231, 254,247);
+ }
+   
+ .navbar{ 
+    background-color: rgb(103, 27, 27); 
+    padding: 20px 100px;
+ } 
+ .navLinks{ 
+    display:inline;
+    list-style: none; 
+    overflow: hidden;
+    float:right;
+ } 
+ .navLinks li{
+    display: inline-block;
+    margin:0 20px;
+} 
+.navLinks li a{
+    color: white;
+    font-size: 20px;
+    text-decoration:none;
+    padding:20px 20 ; 
+} 
+.active{
+    border-bottom: 2px solid white;
+} 
+.navLinks li a:hover{
+    color:blue;
+}
